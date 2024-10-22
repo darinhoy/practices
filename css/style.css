@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 50px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+nav ul img {
+  margin-right: 700px;
+}
+nav ul li {
+  margin-left: 40px;
+  list-style-type: none;
+}
+nav ul a {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
