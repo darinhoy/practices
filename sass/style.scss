@@ -1,26 +1,41 @@
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    font-size: 50px;
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
     
-    ul{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 30px;
-        img{
-            margin-right: 700px;
-        }
-        li{
-            margin-left: 40px;
-            list-style-type: none; 
-        }
-        a{
-            text-decoration: none;
-           
-        }
-       
-    }
+    background-repeat: no-repeat;
+    background-image: linear-gradient(#6a7ab7, #9EA7D4);
+    width: 100vw;
+    height: 100vh;
 
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        font-size: 50px;
+        background-image: url(../page/images/Rectangle\ 68.png);
+        background-color: #6777b5;
+        ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 30px;
+            img{
+                margin-right: 600px;
+                width: 10vw;
+            
+            }
+            li{
+                margin-left: 40px;
+                list-style-type: none; 
+            }
+            a{
+                text-decoration: none;
+                
+            }
+            
+        }
+        
+    }
 }
